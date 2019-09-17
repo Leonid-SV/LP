@@ -1,0 +1,21 @@
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/lesson2/learn_offline_work/word_counter_bot.py", line 49, in wordcount
+    wlist = re.split(regex, text_0)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 213, in split
+    return _compile(pattern, flags).split(string, maxsplit)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\re.py", line 286, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 930, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 426, in _parse_sub
+    not nested and not items))
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 580, in _parse
+    raise source.error(msg, len(this) + 1 + len(that))
+re.error: bad character range :-. at position 3
