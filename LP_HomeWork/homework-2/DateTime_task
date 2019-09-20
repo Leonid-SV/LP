@@ -2,43 +2,35 @@
 Напечатайте в консоль даты: вчера, сегодня, месяц назад
 Превратите строку "01/01/17 12:10:03.234567" в объект datetime
 '''
-import ephem
 from datetime import datetime
 from datetime import timedelta
+import calendar
 
-dt_now = datetime.now()
-# dt_now = datetime(year=2019, month = 1, day = 24)
+# dt_now = datetime.now()
+dt_now = datetime(year=2019, month = 3, day = 22)
 
 
-#проверка на високосность
-
-'''год, номер которого кратен 400, — високосный;
-остальные годы, номер которых кратен 100, — невисокосные;
-остальные годы, номер которых кратен 4, — високосные.'''
-
-def ch_vis(year):
-    d_feb = 28
-    m_days = [31, d_feb, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-
-    if year % 400 == 0:
-        m_days[1] = 29
-    elif year % 100 == 0:
-        m_days[1] = 28
-    elif year % 4 == 0:
-        m_days[1] = 29
-    else:
-        m_days[1] = 28
-
-    return m_days
-
-print(ch_vis(2100)[1])
+# месяц назад
 
 delta_day = timedelta(days = 1)
-delta_month = timedelta(days = ch_vis(dt_now.year)[dt_now.month - 1] + 1)
-
-
 date_yesterday = dt_now - delta_day
-date_month_ago = dt_now - delta_month
+
+# определение предыдущего месяца, чтобы не было 0-го
+if dt_now.month - 1 != 0:
+    month_before = dt_now.month - 1
+    year_back = 0
+else:
+    month_before = 12
+    year_back = 1
+
+day_ = dt_now.day
+
+# условие, что если в дата больше колчества дней в предыдущем месяце, то датой запишется последнее число предыдущего месяца
+if calendar.monthrange(dt_now.year, month_before)[1] < day_:
+    day_ = calendar.monthrange(dt_now.year, dt_now.month - 1)[1]
+
+
+date_month_ago = datetime(dt_now.year - year_back, month_before, day_)
 
 # 1
 print('1. Вчера было: \t {}'.format(date_yesterday.strftime('%d.%m.%Y')), end = '\n\n')
