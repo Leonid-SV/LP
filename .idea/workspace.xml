@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0459ad20-014f-4384-8964-4ce185569911" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LP_HomeWork/homework-2/DateTime_task" beforeDir="false" afterPath="$PROJECT_DIR$/LP_HomeWork/homework-2/DateTime_task" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LP_Lessons/lesson3/repair_of_escalators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/bot.log" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/bot.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,33 +14,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LP_HomeWork/homework-2/DateTime_task">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson3/metro_and_bus_station.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="27" column="123" selection-start-line="27" selection-start-column="123" selection-end-line="27" selection-end-column="123" />
+            <state relative-caret-position="1479">
+              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
               <folding>
-                <element signature="e#127#156#0" expanded="true" />
+                <element signature="e#147#166#0" expanded="true" />
+                <marker date="1569349490534" expanded="true" signature="1601:2370" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="950" column="46" lean-forward="true" selection-start-line="950" selection-start-column="46" selection-end-line="950" selection-end-column="46" />
+            <state relative-caret-position="34">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+        <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson3/repair_of_escalators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="149" column="9" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="12" />
+            <state relative-caret-position="306">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -98,12 +102,21 @@
         <option value="$PROJECT_DIR$/lesson2/learn_offline_work/string_challenges.py" />
         <option value="$PROJECT_DIR$/lesson2/learn_offline_work/for_challenges.py" />
         <option value="$PROJECT_DIR$/LP_HomeWork/homework-2/DateTime_task" />
+        <option value="$PROJECT_DIR$/LP_Lessons/lesson3/for_dict_challenges.py" />
+        <option value="$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/cities/cities.py" />
+        <option value="$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py" />
+        <option value="$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/cities.py" />
+        <option value="$PROJECT_DIR$/LP_Lessons/lesson3/bus_stops_and_streets.py" />
+        <option value="$PROJECT_DIR$/LP_Lessons/lesson3/repair_of_escalators.py" />
+        <option value="$PROJECT_DIR$/LP_Lessons/lesson3/bus_stop_list/bus_stop_list.csv" />
+        <option value="$PROJECT_DIR$/LP_Lessons/lesson3/metro_and_bus_station.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="width" value="1099" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="833" />
+    <option name="width" value="1093" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -112,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,18 +141,31 @@
               <item name="Projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projects" type="462c0819:PsiDirectoryNode" />
               <item name="LP_HomeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="homework-1" type="462c0819:PsiDirectoryNode" />
+              <item name="homework-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="LP_HomeWork" type="462c0819:PsiDirectoryNode" />
-              <item name="homework-2" type="462c0819:PsiDirectoryNode" />
+              <item name="LP_Lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="LP_Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="LP_Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="bus_stop_list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,12 +173,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\LP_Lessons\lesson3\repair_of_escalators" />
+      <recent name="C:\Projects\LP_Lessons\lesson3\bus_stop_list" />
+      <recent name="C:\Projects\LP_Lessons\lesson2\learn_offline_work" />
+      <recent name="C:\Projects\LP_Lessons\lesson3" />
       <recent name="C:\Projects\LP_Lessons" />
-      <recent name="C:\Projects\LP_HomeWork" />
-      <recent name="C:\Projects\HomeWork" />
-      <recent name="C:\Projects\lesson2\learn_offline_work" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\LP_Lessons\lesson2\learn_offline_work\cities" />
+      <recent name="C:\Projects\LP_Lessons\lesson2\learn_offline_work" />
       <recent name="C:\Projects\lp\learn_python_koans\koans" />
     </key>
   </component>
@@ -169,8 +197,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DateTime_task">
-    <configuration name="DateTime_task" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.metro_and_bus_station">
+    <configuration name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,11 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LP_HomeWork/homework-2" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LP_HomeWork/homework-2/DateTime_task" />
+      <option name="SCRIPT_NAME" value="/Python Console" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ephem_bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bus_stops_and_streets" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,11 +227,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2/learn-homework-1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LP_Lessons/lesson3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/learn-homework-1/ephem_bot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LP_Lessons/lesson3/bus_stops_and_streets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="for_challenges" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="game_cities_bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,11 +248,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2/learn_offline_work" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/learn_offline_work/for_challenges.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="string_challenges" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="metro_and_bus_station" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,11 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2/learn_offline_work" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LP_Lessons/lesson3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/learn_offline_work/string_challenges.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LP_Lessons/lesson3/metro_and_bus_station.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="word_counter_bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="repair_of_escalators" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,11 +290,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson2/learn_offline_work" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LP_Lessons/lesson3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson2/learn_offline_work/word_counter_bot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LP_Lessons/lesson3/repair_of_escalators.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DateTime_task" />
-        <item itemvalue="Python.for_challenges" />
-        <item itemvalue="Python.string_challenges" />
-        <item itemvalue="Python.word_counter_bot" />
-        <item itemvalue="Python.ephem_bot" />
+        <item itemvalue="Python.metro_and_bus_station" />
+        <item itemvalue="Python.Python Console" />
+        <item itemvalue="Python.repair_of_escalators" />
+        <item itemvalue="Python.bus_stops_and_streets" />
+        <item itemvalue="Python.game_cities_bot" />
       </list>
     </recent_temporary>
   </component>
@@ -308,23 +336,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="-7" width="1463" height="878" extended-state="6" />
+    <frame x="0" y="0" width="1536" height="864" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20196353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12888302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25871313" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35271809" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33197832" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32573727" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.36449865" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -361,37 +389,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/colors.sh" />
-    <entry file="file://$PROJECT_DIR$/hello.py" />
-    <entry file="file://$PROJECT_DIR$/lesson1/Telegram_bot.py" />
-    <entry file="file://$PROJECT_DIR$/mybot/naive_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LP_HomeWork/learn_python_koans/koans/about_bool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LP_HomeWork/learn_python_koans/koans/about_compound_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LP_HomeWork/learn_python_koans/koans/about_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lp/learn_python_koans/koans/koans_plugs.py" />
     <entry file="file://$PROJECT_DIR$/LP_HomeWork/learn_python_koans/koans_plugs.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -472,13 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybot/bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybot/bot.py" />
     <entry file="file://$PROJECT_DIR$/LP_HomeWork/homework-1/exception2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -535,24 +526,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LP_HomeWork/homework-1/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/word_counter_bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
-          <folding>
-            <element signature="e#923#935#0" expanded="true" />
-            <marker date="1568543069015" expanded="true" signature="1832:1959" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_HomeWork/homework-1/.gitignore" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/ephem/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -591,9 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson1/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson1/.gitignore" />
     <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson1/Dicts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -615,9 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LP_HomeWork/lp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_HomeWork/lp/__init__.py" />
     <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/for_challenges.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -625,10 +595,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/string_challenges.py">
+    <entry file="file://$PROJECT_DIR$/LP_HomeWork/homework-2/DateTime_task">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="383">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#127#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="950" column="46" lean-forward="true" selection-start-line="950" selection-start-column="46" selection-end-line="950" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -639,20 +619,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/787926422/sys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="950" column="46" lean-forward="true" selection-start-line="950" selection-start-column="46" selection-end-line="950" selection-end-column="46" />
+        <state relative-caret-position="159">
+          <caret line="584" selection-start-line="584" selection-end-line="584" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LP_HomeWork/homework-2/DateTime_task">
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/string_challenges.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="27" column="123" selection-start-line="27" selection-start-column="123" selection-end-line="27" selection-end-column="123" />
+        <state relative-caret-position="213">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/word_counter_bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
           <folding>
-            <element signature="e#127#156#0" expanded="true" />
+            <element signature="e#923#935#0" expanded="true" />
+            <marker date="1568543069015" expanded="true" signature="1832:1959" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/for_dict_challenges.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/787926422/_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_HomeWork/homework-2/CSV/csv_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/cities/ru_cities.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="408">
+          <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-17860">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding>
+            <element signature="e#525#539#0" expanded="true" />
+            <marker date="1569092918881" expanded="true" signature="1832:1870" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson2/learn_offline_work/cities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson3/repair_of_escalators/data-397-2019-08-27.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson3/bus_stop_list/bus_stop_list.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="187">
+          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson3/bus_stops_and_streets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#184#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson3/repair_of_escalators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LP_Lessons/lesson3/metro_and_bus_station.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding>
+            <element signature="e#147#166#0" expanded="true" />
+            <marker date="1569349490534" expanded="true" signature="1601:2370" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>

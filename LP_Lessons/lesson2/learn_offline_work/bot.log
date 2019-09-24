@@ -19,3 +19,150 @@ Traceback (most recent call last):
   File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\sre_parse.py", line 580, in _parse
     raise source.error(msg, len(this) + 1 + len(that))
 re.error: bad character range :-. at position 3
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 48, in cities_game
+    text_0 = update.message.text[9:]
+AttributeError: 'NoneType' object has no attribute 'text'
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 51, in cities_game
+    print(in_game)
+UnboundLocalError: local variable 'in_game' referenced before assignment
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 57, in cities_game
+    cities_game(bot, update)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 57, in cities_game
+    cities_game(bot, update)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 57, in cities_game
+    cities_game(bot, update)
+  [Previous line repeated 987 more times]
+RecursionError: maximum recursion depth exceeded
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 56, in cities_game
+    cities_game(bot, update)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 56, in cities_game
+    cities_game(bot, update)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 56, in cities_game
+    cities_game(bot, update)
+  [Previous line repeated 987 more times]
+RecursionError: maximum recursion depth exceeded
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 56, in cities_game
+    cities_game(bot, update)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 56, in cities_game
+    cities_game(bot, update)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 56, in cities_game
+    cities_game(bot, update)
+  [Previous line repeated 987 more times]
+RecursionError: maximum recursion depth exceeded
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 61, in cities_game
+    last_simb = a[-1] if a[-1] in ['é', 'ü'] else a[-2]
+TypeError: 'NoneType' object is not subscriptable
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 53, in cities_game
+    print(f'{text_0[0].lower()}---{last_simb.lower()}')
+NameError: name 'last_simb' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 53, in cities_game
+    print(f'{text_0[0].lower()}---{last_simb.lower()}')
+NameError: name 'last_simb' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 53, in cities_game
+    print(f'{text_0[0].lower()}---{last_simb.lower()}')
+NameError: name 'last_simb' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 53, in cities_game
+    print(f'{text_0[0].lower()}---{last_simb.lower()}')
+NameError: name 'last_simb' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 51, in cities_game
+    a = cities.cities(text_0)
+  File "C:\Projects\LP_Lessons\lesson2\learn_offline_work\cities.py", line 59, in cities
+    print(in_game)
+NameError: name 'in_game' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 50, in cities_game
+    a = cities.cities(text_0)
+  File "C:\Projects\LP_Lessons\lesson2\learn_offline_work\cities.py", line 59, in cities
+    print(in_game)
+NameError: name 'in_game' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 50, in cities_game
+    a = cities.cities(text_0)
+  File "C:\Projects\LP_Lessons\lesson2\learn_offline_work\cities.py", line 59, in cities
+    print(in_game)
+NameError: name 'in_game' is not defined
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\sevas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "C:/Projects/LP_Lessons/lesson2/learn_offline_work/game_cities_bot.py", line 48, in cities_game
+    text_0 = update.message.text[8:]
+AttributeError: 'NoneType' object has no attribute 'text'
