@@ -4,29 +4,27 @@
 
 import pandas as pd
 import numpy as np
+from pprint import pprint
 
 # считывание базы данных по московским станциям метро
 metro_station_base = pd.read_excel('repair_of_escalators/repair_of_escalators.xlsx', encoding = 'cp1251')
-metro_station_base = metro_station_base[metro_station_base.index <= 10]
-
-print(metro_station_base.index)
-
-print(metro_station_base)
+metro_station_base = metro_station_base[metro_station_base.index <= 50]
 
 # считывание базы данных по московским автобусным остановкам
 bus_stop_base = pd.read_excel('bus_stop_list/bus_stop_list.xlsx', encoding='cp1251')
 # bus_stop_base = bus_stop_base[bus_stop_base.index <= 500]
 # преобразование в кортеж для ускорения решения
 
-msb = tuple(zip(    metro_station_base['Longitude_WGS84'],
-                    metro_station_base['Latitude_WGS84'],
-                    metro_station_base['Name'],
-                )
-              )
-
-bsb = tuple(zip(    bus_stop_base['Longitude_WGS84'],
-                    bus_stop_base['Latitude_WGS84'], )
-              )
+# msb = list(zip(    metro_station_base['Longitude_WGS84'],
+#                     metro_station_base['Latitude_WGS84'],
+#                     metro_station_base['Name'],
+#                     metro_station_base['NameOfStation'],
+#                 )
+#               )
+#
+# bsb = list(zip(    bus_stop_base['Longitude_WGS84'],
+#                     bus_stop_base['Latitude_WGS84'], )
+#               )
 
 
 def distance(coord_1, coord_2):
@@ -55,11 +53,20 @@ def distance(coord_1, coord_2):
 print(distance((55.6864963, 37.856904), (55.6842382, 37.8542378)))
 
 
+def close_plus(d, dots, rad):
+    '''
+    функция возвращает 1 если точка находится ближе чем rad хотя бы к одной из точеу dots, иначе 0
+    '''
 
-metro_stationa_chosen = []
+    answ = False
 
+    for dot in dots:
+        cond = (dot[0]- d[0])**2 + (dot[1]- d[1])**2 < rad **2
+        answ = int(answ or cond)
 
+    return int(answ)
 
+metro_stationa_chosen = {}
 
 def main_calc(msb_s, bsb_s):
 
@@ -80,15 +87,24 @@ def main_calc(msb_s, bsb_s):
 
         for b_station in bsb_s:
 
+            bsb_index = 0
+
             coord_2 = (b_station[0], b_station[1])
+
+            # print(coord_2)
+
             sn = m_station[2]
 
-            if distance(coord_1, coord_2) <= closer_than and (sn not in metro_stationa_chosen):
-                metro_stationa_chosen.append(sn)
+            in_range = distance(coord_1, coord_2) <= closer_than
+
+            if in_range and (sn not in metro_stationa_chosen):
+                metro_stationa_chosen[sn] = 1
+            elif in_range and (sn in metro_stationa_chosen):
+                metro_stationa_chosen[sn] += 1
 
     print("---------- Finish ------------")
 
-    print(metro_stationa_chosen)
+    pprint(metro_stationa_chosen)
 
 
 # if __name__ == '__main__':
